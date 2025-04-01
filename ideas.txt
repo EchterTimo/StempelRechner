@@ -1,0 +1,18 @@
+Features
+[  ] Calculate Time diff
+[  ] Zeige ob man plus oder minus macht
+[  ] Version Pop-Up (save in localdata.)
+
+Settings
+[  ] Pausenzeit pro Tag (eventuell dynamisch) = 45m
+
+[  ] Stunden pro Woche = 35
+[  ] Stunden pro Tag = OBEN / UNTEN
+[  ] Anzahl der Arbeitstage = 5
+
+Calc data
+[  ] Start time: date =
+[  ] End time: date = now()
+
+UI Draw
+[  ] When I came around START and leave at END i would make plus/minus DURATION (colored green/red)
