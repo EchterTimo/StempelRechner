@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- JS -->
+    <script src="js/default_values.js" defer></script>
+    <script src="js/calculate.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Stempeluhr Guthaben-Rechner</h1>
+    </header>
+
+    <section name="Einstellungen">
+        <h2>Einstellungen</h2>
+
+        <label for="work_days">Arbeitstage pro Woche</label>
+        <input type="number" id="work_days" min="1" max="7" value="5">
+        <br>
+        <label for="hours_per_week">Stunden pro Woche</label>
+        <input type="number" id="hours_per_week" value="35.0">
+        <br>
+        <label for="break_duration">Pausenzeit pro Tag</label>
+        <input type="time" id="break_duration" value="00:45">
+    </section>
+
+    <section name="input">
+        <h2>Eingabe</h2>
+
+        <label for="start_time">Ankunft</label>
+        <input type="time" id="start_time" value="07:30" required autofocus>
+        <br>
+        <label for="end_time">Abreise</label>
+        <input type="time" id="end_time" required>
+
+    </section>
+
+    <section name="output">
+        <h2>Berechnung</h2>
+
+        <label for="duration">Zeitlicher Unterschied</label>
+        <input type="time" id="duration" readonly>
+        <br>
+        <label for="next_possible_end_time">Uhrzeit um Kontostand zu halten</label>
+        <input type="time" id="next_possible_end_time" readonly>
+    </section>
+</body>
+
+</html>

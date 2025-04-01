@@ -1,0 +1,39 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    zoom: 1.9;
+}
+
+label {
+    width: 250px;
+    display: inline-block;
+}
+
+input {
+    /* position */
+    width: 75px;
+    margin: 2px 0;
+
+    /* color */
+    background-color: #1e1e1e;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00ff00;
+    border-width: 1px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+input {
+    box-sizing: border-box;
+}
